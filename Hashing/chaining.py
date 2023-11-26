@@ -34,7 +34,7 @@ class HashTable:
                 print("del",index)
                 del self.arr[arr_index][index]
                 
-with open('G:\Aravind Portfolio\Data_Structures\Hashing\weather.csv','r') as f:
+with open('Hashing\weather.csv','r') as f:
     weather = f.read().split('\n')
     weather.pop(0)
 for ind,i in enumerate(weather):
